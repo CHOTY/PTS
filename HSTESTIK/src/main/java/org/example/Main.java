@@ -20,8 +20,8 @@ public class Main {
             cookie.click();
             WebElement login = driver.findElement(By.id("login"));
             WebElement password = driver.findElement(By.id("heslo"));
-            String meno = "307393";
-            String pass = "0108273264";
+            String meno = your_ID;
+            String pass = your_password;
             login.sendKeys(meno);
             password.sendKeys(pass);
             WebElement submit = driver.findElement(By.xpath("//*[@id=\"login-form-submit-btn\"]"));
